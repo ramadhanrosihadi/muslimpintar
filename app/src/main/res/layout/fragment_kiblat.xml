@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <ImageView
+    android:id="@+id/ivCompass"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:src="@drawable/img_kiblat"
+    android:layout_centerInParent="true"/>
+  <TextView
+    android:text="INFO"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvInfo"
+    android:textSize="20sp"
+    android:textColor="@color/textColor"
+    android:layout_below="@id/ivCompass"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"/>
+  <TextView
+    android:text="Degree"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvDegree"
+    android:textSize="20sp"
+    android:textColor="@color/textColor"
+    android:layout_below="@id/tvInfo"
+    android:layout_centerHorizontal="true"/>
+</RelativeLayout>
